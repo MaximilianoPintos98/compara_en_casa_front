@@ -1,3 +1,24 @@
+# Start Project with Docker
+
+- Clone the project in your pc
+
+- in console first run the command "docker build -t NAME-IMAGE ." to install dependencies and create the image
+
+- later run the project in port 3000 with the next command: 
+
+- "docker run -d -p 3000:3000 --name NAME-CONTAINER NAME-IMAGE"
+
+- and finally open the http://localhost:3000 in your browser
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
